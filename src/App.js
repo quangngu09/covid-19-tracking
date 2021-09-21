@@ -70,7 +70,7 @@ const App = () => {
   return (
     <Container style={{ marginTop: 20 }}>
       <Typography variant='h2' component='h2'>
-        Số liệu COVID-19
+        Số liệu COVID-19 trên toàn cầu
       </Typography>
       <Typography>{moment().format('LLL')}</Typography>
       <CountrySelector

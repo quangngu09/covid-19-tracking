@@ -14,6 +14,7 @@ const useStyles = makeStyles({
 });
 
 export default function HighlightCard({ title, count, type }) {
+  console.log(count)
   const classes = useStyles({ type });
   return (
     <Card className={classes.wrapper}>

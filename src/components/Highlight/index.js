@@ -5,7 +5,8 @@ import HighlightCard from './HighlightCard';
 export default function Highlight({ summary }) {
   return (
     <Grid container spacing={3}>
-      {summary.map((data) => (
+      {summary.map((data) =>
+      (
         <Grid item sm={4} xs={12}>
           <HighlightCard
             title={data.title}
